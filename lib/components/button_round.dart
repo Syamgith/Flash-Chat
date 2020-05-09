@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class buttonRound extends StatelessWidget {
-  buttonRound({this.colour, this.text, @required this.onPressed});
+class ButtonRound extends StatelessWidget {
+  ButtonRound({this.colour, this.text, @required this.onPressed});
   final Color colour;
   final String text;
   final Function onPressed;
